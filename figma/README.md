@@ -1,4 +1,3 @@
-# LIM010-hackathon-peliculas
 # "Hackathon" de final de _Common Core_
 
 ## Índice
@@ -36,5 +35,5 @@ peliculas de acción y ciencia ficción visualizar las más taquilleras del mome
 ## Prototipo de alta fidelidad
 
 ## Feedback
-# Realizado por: Trinidad Mejia Yanina Contreras Grecia Garcia Jenny
+# Realizado por:
 
