@@ -36,5 +36,5 @@ peliculas de acción y ciencia ficción visualizar las más taquilleras del mome
 ## Prototipo de alta fidelidad
 
 ## Feedback
-# Realizado por: Trinidad Mejia Yanina Contreras Grecia Garcia  
+# Realizado por: Trinidad Mejia Yanina Contreras Grecia Garcia Jenny
 
