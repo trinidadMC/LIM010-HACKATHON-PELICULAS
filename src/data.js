@@ -154,4 +154,4 @@ btnOrder.addEventListener('click', ()=>{
     let arrData = arrMoviesTemp;
     let orderedData = scifi.orderData(arrData, orderAll, orderSelected );
     scifi.showData(orderedData);
-})
+});
