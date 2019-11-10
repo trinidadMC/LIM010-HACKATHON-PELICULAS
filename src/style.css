@@ -1,0 +1,169 @@
+.hide{
+	display: none;
+}
+
+.container-fluid{
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flip-card-title{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px 20px;
+    border-radius: 5px;
+}
+
+.card-img{
+    height: 600px;
+    width: 500px;
+}
+
+
+.card-text{
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title-container{
+    color: white;
+    border: 2px solid;
+    padding: 3px 10px;
+    margin: 35px 25px;
+}
+.form{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+/* desde aqui mi cara2 */
+.encabezado{
+    width: 100%;
+    height: 88px;
+    color: white;
+    border: 2px solid;
+    }
+main{
+    background-color: rgb(0, 0, 0);
+}
+.card-body{
+    background-color: rgb(0, 0, 0);
+}
+.d-block {
+    height: 500px;
+}
+.card-img-top{
+    height: 270px;
+    width: 215px;
+}
+.todaslasimagenes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-title{
+    color: white;
+}
+.card{
+    border-top-width: 15px;
+}
+/* Flip-card */
+.flip-card {
+    height: 500px;
+    perspective: 1000px;
+    border: 2px solid rgb(242, 243, 247);
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 530px;
+    height: 670px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+
+  /* FOOTER */
+  .footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+.follow-us{
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px 30px;
+    color: #ffffff;
+}
+.wrapper-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.a-social-media-icon{
+    padding: 1px 15px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4D97F0;
+}
+.img-social-media{
+    height: 2em;
+}
+.copyright{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    height: max-content;
+    width: max-content;
+    font-size: 12px;
+    margin: 0 15px 5px;
+}
